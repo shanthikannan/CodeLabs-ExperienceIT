@@ -18,8 +18,9 @@ namespace DataTypesAndVariables.Excercise1
                 Console.WriteLine("Are we there yet");
                 //get for user input
                 string input = Console.ReadLine();
+                bool result = input.Equals("yes", StringComparison.OrdinalIgnoreCase);
                 //if input is equal to "YES" or "yes" 
-                if (input == "Yes" || input =="yes" || input == "YES")
+                if (result)
                 {
                     //end the loop use break
                     break;
