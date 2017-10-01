@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DataTypesAndVariables.Excercise1.NumbersProblem</StartupObject>
+    <StartupObject>DataTypesAndVariables.Excercise1.Loops</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

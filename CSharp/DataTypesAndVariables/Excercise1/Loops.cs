@@ -12,6 +12,26 @@ namespace DataTypesAndVariables.Excercise1
             //Write a program that uses a do while statement. Inside the loop, a kid is asking "are we there yet"
             //Then ask the user for input. The loop ends when we have arrived and then print to the console that "We're here!"
 
+            do
+            {
+                // Write to console Are we there at
+                Console.WriteLine("Are we there yet");
+                //get for user input
+                string input = Console.ReadLine();
+                //if input is equal to "YES" or "yes" 
+                if (input == "Yes" || input =="yes" || input == "YES")
+                {
+                    //end the loop use break
+                    break;
+                }
+
+            } while (true);
+
+            //print We are here..
+            Console.WriteLine ("We're here!");
+            Console.ReadKey();
+
+
             //while loops
 
             //Write a program using a while loop that counts by 5's up to 100 starting at 5
